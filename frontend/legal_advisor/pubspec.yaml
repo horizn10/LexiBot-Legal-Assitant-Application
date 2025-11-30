@@ -1,0 +1,51 @@
+name: legal_advisor
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  provider: ^6.0.5
+  google_fonts: ^4.0.4
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
+        - asset: fonts/NotoSans-Bold.ttf
+          weight: 700
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: fonts/NotoSansDevanagari-Regular.ttf
+        - asset: fonts/NotoSansDevanagari-Bold.ttf
+          weight: 700
+
+  assets:
+    - assets/logo.png
+    - Dataset/BNS_master.json
+    - Dataset/BNSS_master.json
+    - Dataset/BSA_master.json
+    - Dataset/BNS_master_hindi.json
+    - Dataset/BNSS_master_hindi.json
+    - Dataset/BSA_master_hindi.json
+    - Dataset/BNS_master_nepali.json
+    - Dataset/BSA_master_nepali.json
+    - Dataset/BNSS_master_nepali.json
